@@ -42,13 +42,13 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/next.svg"
+            src="https://my-assets-bucket-dev.s3.us-east-2.amazonaws.com/bgImg/new-test-1678889673153.png"
             alt="Next.js Logo"
-            width={180}
-            height={37}
+            width={600}
+            height={400}
             priority
           />
-          <div className={styles.thirteen}>
+          {/* <div className={styles.thirteen}>
             <Image
               src="/thirteen.svg"
               alt="13"
@@ -56,7 +56,7 @@ export default function Home() {
               height={31}
               priority
             />
-          </div>
+          </div> */}
         </div>
 
         <div className={styles.grid}>
